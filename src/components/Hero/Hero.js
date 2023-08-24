@@ -16,9 +16,7 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        I am a student at Bina Sarana Informatika University, Pontianak City,
-        who is interested in Web programming and design. I have expertise in
-        HTML, CSS, JavaScript, Vue JS, React JS, UI/UX and Figma.
+        I am a student at Bina Sarana Informatika University, Pontianak City.
       </SectionText>
       <Button
         onClick={() =>

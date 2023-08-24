@@ -10,11 +10,11 @@ import {
   CarouselItemText,
   CarouselItemTitle,
   CarouselMobileScrollNode,
+  SectionText,
 } from './TimeLineStyles';
 import {
   Section,
   SectionDivider,
-  SectionText,
   SectionTitle,
 } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
@@ -53,8 +53,6 @@ const Timeline = () => {
     }
   };
 
-  // // snap back to beginning of scroll when window is resized
-  // // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
@@ -68,9 +66,14 @@ const Timeline = () => {
       <SectionDivider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I'm a Front-end developer and UI/UX Designer with experience in React
-        JS, Vue Js and Figma. I'm currently working on a project using React JS,
-        Vue JS and Figma as tool UI Design.
+        I am a student at Bina Sarana Informatika in Pontianak city who is
+        interested in the field of Web Programming. I have expertise in using
+        technology such as HTML, CSS, JavaScript, and using the Vue JS framework
+        as well React JS to create an interesting and interactive user
+        experience. Experienced in developing responsive and intuitive web
+        applications, and have an understanding of UI/UX design. Always eager to
+        keep learning and keeping up to date with the latest developments in the
+        web technology industry.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

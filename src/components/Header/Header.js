@@ -7,9 +7,7 @@ import {
   Container,
   Span,
   Div1,
-  Div2,
   Div3,
-  NavLink,
   SocialIcons,
 } from './HeaderStyles';
 

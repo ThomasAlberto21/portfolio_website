@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link';
 import {
   BlogCard,
   CardInfo,
@@ -12,6 +12,7 @@ import {
   TitleContent,
   UtilityList,
   Img,
+  Button,
 } from './ProjectsStyles';
 import {
   Section,
@@ -50,6 +51,19 @@ const Projects = () => (
         )
       )}
     </GridContainer>
+    <Button>
+      <Link href='/projects'>
+        <a
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            color: 'white',
+          }}
+        >
+          <span>See All Project</span>
+        </a>
+      </Link>
+    </Button>
   </Section>
 );
 
