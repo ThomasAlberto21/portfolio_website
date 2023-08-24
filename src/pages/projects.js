@@ -13,7 +13,7 @@ import {
   TitleContent,
   UtilityList,
   Img,
-} from './ProjectsStyles';
+} from '../components/Projects/ProjectsStyles';
 import {
   Section,
   SectionDivider,
