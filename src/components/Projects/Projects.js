@@ -63,7 +63,7 @@ const Projects = () => {
               color: 'white',
             }}
           >
-            <span>See All Project</span>
+            <span>See All My Project</span>
           </a>
         </Link>
       </Button>

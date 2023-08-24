@@ -10,7 +10,6 @@ import {
   LinkList,
   LinkTitle,
   Slogan,
-  SocialContainer,
   SocialIconsContainer,
 } from './FooterStyles';
 
@@ -20,7 +19,7 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href='tel: 555-555-5555'>555-555-5555</LinkItem>
+          <LinkItem href='tel: 0857-5246-1241'>0857-5246-1241</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>

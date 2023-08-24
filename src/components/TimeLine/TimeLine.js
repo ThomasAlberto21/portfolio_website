@@ -99,8 +99,8 @@ const Timeline = () => {
                       xmlns='http://www.w3.org/2000/svg'
                     >
                       <path
-                        fill-rule='evenodd'
-                        clip-rule='evenodd'
+                        fillRule='evenodd'
+                        clipRule='evenodd'
                         d='M0 0H208V4H0V0Z'
                         fill='url(#paint0_linear)'
                         fill-opacity='0.33'
