@@ -103,7 +103,7 @@ const Timeline = () => {
                         clipRule='evenodd'
                         d='M0 0H208V4H0V0Z'
                         fill='url(#paint0_linear)'
-                        fill-opacity='0.33'
+                        fillOpacity='0.33'
                       />
                       <defs>
                         <linearGradient
@@ -117,8 +117,8 @@ const Timeline = () => {
                           <stop stop-color='white' />
                           <stop
                             offset='0.79478'
-                            stop-color='white'
-                            stop-opacity='0'
+                            stopColor='white'
+                            stopOpacity='0'
                           />
                         </linearGradient>
                       </defs>
