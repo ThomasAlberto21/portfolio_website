@@ -26,27 +26,10 @@ const Header = () => (
               marginBottom: '20px',
             }}
           >
-            <DiCssdeck size='3rem' /> <Span>Portfolio</Span>
+            <DiCssdeck size='3rem' /> <Span>Thomas Alberto</Span>
           </a>
         </Link>
       </Div1>
-      <Div2>
-        <li>
-          <Link href='#projects'>
-            <NavLink>Projects</NavLink>
-          </Link>
-        </li>
-        <li>
-          <Link href='#tech'>
-            <NavLink>Technologies</NavLink>
-          </Link>
-        </li>
-        <li>
-          <Link href='#about'>
-            <NavLink>About</NavLink>
-          </Link>
-        </li>
-      </Div2>
       <Div3>
         <SocialIcons href='https://github.com/ThomasAlberto21'>
           <AiFillGithub size='3rem' />
