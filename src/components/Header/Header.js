@@ -3,13 +3,7 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
-import {
-  Container,
-  Span,
-  Div1,
-  Div3,
-  SocialIcons,
-} from './HeaderStyles';
+import { Container, Span, Div1, Div3, SocialIcons } from './HeaderStyles';
 
 const Header = () => (
   <div>
@@ -35,7 +29,7 @@ const Header = () => (
         <SocialIcons href='https://www.instagram.com/thomasalberto21/'>
           <AiFillInstagram size='3rem' />
         </SocialIcons>
-        <SocialIcons href='www.linkedin.com/in/thomasalberto21'>
+        <SocialIcons href='https://www.linkedin.com/in/thomas-alberto-8472b7256/'>
           <AiFillLinkedin size='3rem' />
         </SocialIcons>
       </Div3>
