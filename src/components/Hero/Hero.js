@@ -20,8 +20,7 @@ const Hero = (props) => (
       </SectionText>
       <Button
         onClick={() =>
-          (window.location =
-            'https://drive.google.com/file/d/1q88xkPPnDi8mzwt3wgiGl0J40FrWxCJl/view?usp=sharing')
+          (window.location = 'https://www.cakeresume.com/thomas-alberto-05ed3b')
         }
       >
         Download My CV
