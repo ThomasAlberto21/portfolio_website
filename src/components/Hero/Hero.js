@@ -21,7 +21,7 @@ const Hero = (props) => (
       <Button
         onClick={() =>
           (window.location =
-            'https://www.cakeresume.com/pdf/s--qesF8hoyCZ4W72RDFloYww--/OXP9d.pdf')
+            'https://www.cakeresume.com/pdf/s--I_4WpZPYZpHw0wCNPY4v1A--/E8Lox.pdf')
         }
       >
         Download My CV
