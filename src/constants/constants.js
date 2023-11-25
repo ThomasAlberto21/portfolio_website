@@ -119,6 +119,6 @@ export const TimeLineData = [
   { year: 2022, text: 'Freelance developer' },
   {
     year: 2023,
-    text: 'UI / UX',
+    text: 'UI / UX At DigiPages',
   },
 ];
